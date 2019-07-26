@@ -3,7 +3,7 @@
 Get the code in the notebook.
 
 ```
-def plot_cluster_radar(data, cluster_label, features=None, center=np.mean)
+def plot_cluster_radar(data, cluster_label, features=None, center=np.mean, ax=None, figsize=(8,8), legend_loc=(1.3,0.9), legend_labels=None)
 ```
 
 **data** : Pandas Dataframe, Numpy
